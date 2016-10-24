@@ -1,42 +1,50 @@
 [
  {
-   "repository": "AICP/device_oppo_common",
+   "repository":  "device_oppo_common",
    "target_path": "device/oppo/common",
-    "branch":      "n7.0"
+   "branch":      "n7.0",
+   "remote":      "aicp"
  },
  {
-   "repository": "CyanogenMod/android_kernel_oneplus_msm8996",
+   "repository":  "android_kernel_oneplus_msm8996",
    "target_path": "kernel/oneplus/msm8996",
-    "branch":      "cm-14.0"
+   "branch":      "cm-14.0",
+   "remote":      "cm"
  },
  {
-   "repository": "CyanogenMod/android_vendor_nxp-nfc_opensource_frameworks",
+   "repository":  "android_vendor_nxp-nfc_opensource_frameworks",
    "target_path": "vendor/nxp-nfc/opensource/frameworks",
-    "branch":      "cm-14.0"
+   "branch":      "cm-14.0",
+   "remote":      "cm"
  },
  {
-   "repository": "CyanogenMod/android_vendor_nxp-nfc_opensource_libnfc-nci",
+   "repository":  "android_vendor_nxp-nfc_opensource_libnfc-nci",
    "target_path": "vendor/nxp-nfc/opensource/libnfc-nci",
-    "branch":      "cm-14.0"
+   "branch":      "cm-14.0",
+   "remote":      "cm"
  },
  {
-   "repository": "CyanogenMod/android_vendor_nxp-nfc_opensource_Nfc",
+   "repository":  "android_vendor_nxp-nfc_opensource_Nfc",
    "target_path": "vendor/nxp-nfc/opensource/Nfc",
-   "branch":      "cm-14.0"
+   "branch":      "cm-14.0",
+   "remote":      "cm"
  },
  {
-   "repository": "TheMuppets/proprietary_vendor_qcom_binaries",
+   "repository":  "proprietary_vendor_qcom_binaries",
    "target_path": "vendor/qcom/binaries",
-   "branch":      "cm-14.0"
+   "branch":      "cm-14.0",
+   "remote":      "tm"
  },
   {
-   "repository": "CyanogenMod/android_device_qcom_common",
+   "repository":  "android_device_qcom_common",
    "target_path": "device/qcom/common",
-   "branch":      "cm-14.0"
+   "branch":      "cm-14.0",
+   "remote":      "cm"
  },
  {
-   "repository": "AICP/proprietary_vendor_oneplus",
+   "repository":  "proprietary_vendor_oneplus",
    "target_path": "vendor/oneplus",
-   "branch":      "n7.0"
+   "branch":      "n7.0",
+   "remote":      "aicp"
  }
 ]
