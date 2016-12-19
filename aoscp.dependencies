@@ -36,10 +36,10 @@
    "remote":      "tm"
  },
   {
-   "repository":  "android_device_qcom_common",
+   "repository":  "device_qcom_common",
    "target_path": "device/qcom/common",
-   "branch":      "cm-14.1",
-   "remote":      "cm"
+   "branch":      "n7.1",
+   "remote":      "aoscp"
  },
  {
    "repository":  "proprietary_vendor_oneplus",
