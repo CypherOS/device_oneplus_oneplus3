@@ -19,9 +19,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
 
-import cyanogenmod.preference.RemotePreferenceUpdater;
-
-public class DozeReceiver extends RemotePreferenceUpdater {
+public class DozeReceiver {
 
     private static final boolean DEBUG = false;
     private static final String TAG = "OneplusDoze";
