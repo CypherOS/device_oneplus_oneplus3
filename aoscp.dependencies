@@ -30,12 +30,6 @@
    "remote":      "aoscp"
  },
  {
-   "repository":  "proprietary_vendor_qcom_binaries",
-   "target_path": "vendor/qcom/binaries",
-   "branch":      "nougat-mr1",
-   "remote":      "aoscp"
- },
-  {
    "repository":  "device_qcom_common",
    "target_path": "device/qcom/common",
    "branch":      "nougat-mr1",
