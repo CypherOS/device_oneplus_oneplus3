@@ -306,6 +306,9 @@ on post-fs-data
     chmod 2770 /data/system/perfd
     rm /data/system/perfd/default_values
     start perfd
+	
+	chmod 0660 /sys/devices/soc/soc:fpc_fpc1020/proximity_state
+    chown system system /sys/devices/soc/soc:fpc_fpc1020/proximity_state
 
     # NFC local data and nfcee xml storage
     mkdir /data/nfc 0770 nfc nfc

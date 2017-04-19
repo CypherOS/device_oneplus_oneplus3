@@ -153,8 +153,7 @@ PRODUCT_COPY_FILES += \
 
 # Camera
 PRODUCT_PACKAGES += \
-    libcamera_shim \
-	Camero
+    libcamera_shim
 
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
@@ -315,6 +314,10 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/WCNSS_qcom_cfg.ini:system/etc/wifi/WCNSS_qcom_cfg.ini
+	
+# OnePlusParts
+PRODUCT_PACKAGES += \
+    Oneplus3Parts
 
 # Inherit from oppo-common
 $(call inherit-product, device/oppo/common/common.mk)
