@@ -319,5 +319,5 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     Oneplus3Parts
 
-# Inherit from oppo-common
-$(call inherit-product, device/oppo/common/common.mk)
+# Inherit from oneplus-common
+$(call inherit-product, device/oneplus/common/common.mk)
