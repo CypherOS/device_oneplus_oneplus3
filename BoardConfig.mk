@@ -125,7 +125,10 @@ TARGET_CAMERA_APP := Camera2
 BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 
-# Hardware
+# Power hal
+TARGET_PROVIDES_POWERHAL := true
+
+# Gestures
 TARGET_TAP_TO_WAKE_NODE := "/proc/touchpanel/double_tap_enable"
 
 # CNE and DPM
