@@ -45,10 +45,6 @@
 	<integer name="config_oneFingerSwipeDownKeyCode">65</integer>
 
     <integer name="config_oneFingerSwipeUpKeyCode">66</integer>
-	
-	<integer name="config_drawMKeyCode">68</integer>
-
-    <integer name="config_drawWKeyCode">87</integer>
 
     <!-- Default settings for gestures
             0 - Disabled
