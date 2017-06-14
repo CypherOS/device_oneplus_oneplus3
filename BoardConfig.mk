@@ -20,9 +20,6 @@
 # definition file).
 #
 
-# Inherit from oneplus-common
--include device/oneplus/common/BoardConfigCommon.mk
-
 PLATFORM_PATH := device/oneplus/oneplus3
 
 TARGET_SPECIFIC_HEADER_PATH := $(PLATFORM_PATH)/include
