@@ -233,7 +233,7 @@ include device/qcom/sepolicy/sepolicy.mk
 #BOARD_SEPOLICY_DIRS += $(PLATFORM_PATH)/sepolicy
 
 # Shims
-TARGET_LD_SHIM_LIBS := /system/vendor/lib/hw/camera.msm8996.so|libcamera_shim.so:/system/lib/libcamera_client.so|libcamera_parameters_shim.so
+TARGET_LD_SHIM_LIBS := /system/lib/hw/camera.msm8996.so|libcamera_shim.so:/system/lib/libFNVfbEngineHAL.so|libcamera_shim.so:/system/lib/libcamera_client.so|libcamera_parameters_shim.so
 
 # Treble
 #PRODUCT_FULL_TREBLE_OVERRIDE := true
