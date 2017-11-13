@@ -1,0 +1,32 @@
+[
+  {
+    "repository":  "device_oneplus_common",
+    "target_path": "device/oneplus/common",
+	"branch":      "oreo-release",
+    "remote":      "aoscp"
+  },
+  {
+    "repository":  "kernel_oneplus_msm8996",
+    "target_path": "kernel/oneplus/msm8996",
+	"branch":      "oreo-release",
+    "remote":      "aoscp"
+  },
+  {
+    "repository":  "vendor_nxp-nfc_opensource_frameworks",
+    "target_path": "vendor/nxp-nfc/opensource/frameworks",
+	"branch":      "oreo-release",
+    "remote":      "aoscp"
+  },
+  {
+    "repository":  "vendor_nxp-nfc_opensource_libnfc-nci",
+    "target_path": "vendor/nxp-nfc/opensource/libnfc-nci",
+	"branch":      "oreo-release",
+    "remote":      "aoscp"
+  },
+  {
+    "repository":  "vendor_nxp-nfc_opensource_Nfc",
+    "target_path": "vendor/nxp-nfc/opensource/Nfc",
+	"branch":      "oreo-release",
+    "remote":      "aoscp"
+  }
+]
