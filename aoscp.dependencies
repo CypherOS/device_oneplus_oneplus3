@@ -28,5 +28,11 @@
     "target_path": "vendor/nxp-nfc/opensource/Nfc",
 	"branch":      "oreo-release",
     "remote":      "aoscp"
+  },
+  {
+    "repository":  "proprietary_vendor_oneplus",
+    "target_path": "vendor/oneplus",
+    "branch":      "oreo-release",
+    "remote":      "aoscp"
   }
 ]
