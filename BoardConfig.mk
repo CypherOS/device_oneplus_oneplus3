@@ -178,7 +178,7 @@ TARGET_PROVIDES_KEYMASTER := true
 TARGET_PROVIDES_LIBLIGHT := true
 
 # Lineage Hardware
-BOARD_HARDWARE_CLASS += $(PLATFORM_PATH)/lineagehw
+#BOARD_HARDWARE_CLASS += $(PLATFORM_PATH)/lineagehw
 
 # Mainfest
 DEVICE_MANIFEST_FILE := $(PLATFORM_PATH)/configs/manifest.xml
