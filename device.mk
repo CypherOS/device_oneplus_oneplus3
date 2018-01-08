@@ -22,13 +22,13 @@
 
 $(call inherit-product, device/oneplus/oneplus3/hidl.mk)
 $(call inherit-product, vendor/oneplus/oneplus3/oneplus3-vendor.mk)
-$(call inherit-product, vendor/omni/config/phone-xxhdpi-4096-dalvik-heap.mk)
-$(call inherit-product, vendor/omni/config/phone-xxhdpi-2048-hwui-memory.mk)
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-4096-dalvik-heap.mk)
+$(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk)
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_PACKAGES += \
-    omni_charger_res_images
+    charger_res_images
 
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
@@ -260,12 +260,6 @@ PRODUCT_PACKAGES += \
     dhcpcd.conf \
     wpa_supplicant \
     wpa_supplicant.conf
-
-#PRODUCT_PACKAGES += \
-    SnapdragonCamera \
-
-PRODUCT_PACKAGES += \
-    Oneplus3Parts
 
 # bluetooth
 PRODUCT_PACKAGES += \

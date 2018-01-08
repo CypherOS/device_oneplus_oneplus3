@@ -59,7 +59,7 @@ TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
 TARGET_KERNEL_APPEND_DTB := true
 TARGET_KERNEL_SOURCE := kernel/oneplus/msm8996
-TARGET_KERNEL_CONFIG := omni_oneplus3_defconfig
+TARGET_KERNEL_CONFIG := aoscp_oneplus3_defconfig
 
 # partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 67108864
@@ -201,7 +201,7 @@ include device/qcom/sepolicy/sepolicy.mk
 
 BOARD_SEPOLICY_DIRS += $(BOARD_PATH)/sepolicy
 
-include vendor/omni/sepolicy/sepolicy.mk
+include vendor/aoscp-sepolicy/common/sepolicy.mk
 
 DEVICE_MANIFEST_FILE := $(BOARD_PATH)/configs/manifest.xml
 
