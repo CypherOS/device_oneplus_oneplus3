@@ -195,12 +195,9 @@ USE_DEVICE_SPECIFIC_GPS := true
 
 BOARD_ROOT_EXTRA_FOLDERS := bt_firmware firmware persist
 
-# selinux
+# Sepolicy
 include device/qcom/sepolicy/sepolicy.mk
-
 BOARD_SEPOLICY_DIRS += $(BOARD_PATH)/sepolicy
-
-include vendor/aoscp-sepolicy/common/sepolicy.mk
 
 DEVICE_MANIFEST_FILE := $(BOARD_PATH)/configs/manifest.xml
 
