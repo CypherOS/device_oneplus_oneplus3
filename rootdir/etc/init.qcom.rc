@@ -29,6 +29,9 @@ import /vendor/etc/init/hw/init.qcom.usb.rc
 import /vendor/etc/init/hw/init.target.rc
 
 on early-init
+    # Symlink /system/vendor to /odm
+    symlink /system/vendor /odm
+
     mount debugfs debugfs /sys/kernel/debug
     chmod 0755 /sys/kernel/debug
     chown root system /dev/kmsg
