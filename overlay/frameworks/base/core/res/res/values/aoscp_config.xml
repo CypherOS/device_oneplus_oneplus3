@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
 /*
-** Copyright 2013, The Android Open Source Project
+** Copyright 2017-2018 CypherOS
 **
 ** Licensed under the Apache License, Version 2.0 (the "License");
 ** you may not use this file except in compliance with the License.
@@ -19,13 +19,14 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
-    <!-- If enabled, capacitive keys will only light up when pressed.
-         Otherwise, the buttons will light up whenever the user interacts with the device
-    <bool name="config_buttonLightOnKeypressOnly">true</bool> -->
+    <!-- Wether device should show software navbar
+        on first boot -->
+    <bool name="config_defaultToNavigationBar">false</bool>
 
-    <!-- <bool name="config_deviceHasVariableButtonBrightness">true</bool> -->
-
-    <!-- Whether notify fingerprint client of successful cancelled authentication
-    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool> -->
+    <!-- Whether device has physical tri state switch -->
+    <bool name="config_hasAlertSlider">true</bool>
+	
+	<!-- Wether device has dash charging support -->
+    <bool name="config_hasDashCharger">true</bool>
 
 </resources>
