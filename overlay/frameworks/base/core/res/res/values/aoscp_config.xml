@@ -19,6 +19,9 @@
 
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
+    <!-- Wether device has dash charging support -->
+    <bool name="config_hasDashCharger">true</bool>
+
     <integer name="config_drawOKeyCode">250</integer>
 
     <integer name="config_twoFingerSwipeKeyCode">251</integer>
